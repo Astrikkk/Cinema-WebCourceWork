@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\repos\\CinemaDataBase\\",
+  "WorkspaceRootPath": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\repos\\cinemadatabase\\cinemadatabase\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CinemaDataBase\\Data\\Entities\\Film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\repos\\cinemadatabase\\cinemadatabase\\data\\cinemadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\cinemadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CinemaDataBase\\Data\\Entities\\Seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\repos\\cinemadatabase\\cinemadatabase\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CinemaDataBase\\Data\\CinemaDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Seat.cs",
-              "DocumentMoniker": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\Entities\\Seat.cs",
-              "ToolTip": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\Entities\\Seat.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Film.cs",
-              "DocumentMoniker": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\Entities\\Film.cs",
-              "ToolTip": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\Entities\\Film.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,20 +51,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CinemaDB.cs",
-              "DocumentMoniker": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\CinemaDB.cs",
-              "ToolTip": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\CinemaDB.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAiwC8AAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T05:35:49.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-05-11T05:35:49.746Z"
             }
           ]
         }

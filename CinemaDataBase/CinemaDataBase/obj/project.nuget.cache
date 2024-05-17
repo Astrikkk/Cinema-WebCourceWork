@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kz9JfjwbTC3WzOpQSbJ9B85IcWY+HKVp6YyCBqEcVbmQOuU7CX9mrMTPHAfvlE1gciNukaVC3lyEFX+s8CntEA==",
+  "dgSpecHash": "ePVBOs//wcIJdoY/+bXJSwYtaqCR+vqCNlvKRM4ZiVSWcAynSByniQttc2jDBhW7pIjhmKfclx45++NXWWHQtA==",
   "success": true,
-  "projectFilePath": "E:\\repos\\CinemaDataBase\\CinemaDataBase\\CinemaDataBase.csproj",
+  "projectFilePath": "E:\\спрайти\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\CinemaDataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vova\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Vova\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
