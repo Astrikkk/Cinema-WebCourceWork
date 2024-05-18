@@ -2,10 +2,11 @@
 {
     public class Seat
     {
-        public int id { get; set; }
-        public int Column { get; set; }
+        public int Id { get; set; }
+        public int Number { get; set; }
         public int Row { get; set; }
-
-        public bool IsOccupied;
+        public bool IsOccupied { get; set; }
+        public int SeansId { get; set; }
+        public Seans? Seans { get; set; }
     }
 }
