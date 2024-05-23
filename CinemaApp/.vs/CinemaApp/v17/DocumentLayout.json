@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp\\cinemaapp\\data\\cinemadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|solutionrelative:cinemaapp\\data\\cinemadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp\\cinemaapp\\data\\entities\\seans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|solutionrelative:cinemaapp\\data\\entities\\seans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp\\cinemaapp\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|solutionrelative:cinemaapp\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp\\cinemaapp\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|solutionrelative:cinemaapp\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp\\cinemaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948CB9-60F3-4E82-95BD-771BD0B51BCC}|CinemaApp\\CinemaApp.csproj|solutionrelative:cinemaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Program.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Program.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Program.cs",
+              "RelativeToolTip": "CinemaApp\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:29:07.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\Entities\\Seat.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Data\\Entities\\Seat.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\Entities\\Seat.cs",
+              "RelativeToolTip": "CinemaApp\\Data\\Entities\\Seat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:28:15.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seans.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\Entities\\Seans.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Data\\Entities\\Seans.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\Entities\\Seans.cs",
+              "RelativeToolTip": "CinemaApp\\Data\\Entities\\Seans.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:28:06.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Film.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\Entities\\Film.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Data\\Entities\\Film.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\Entities\\Film.cs",
+              "RelativeToolTip": "CinemaApp\\Data\\Entities\\Film.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:27:53.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CinemaDB.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\CinemaDB.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Data\\CinemaDB.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp\\CinemaApp\\Data\\CinemaDB.cs",
+              "RelativeToolTip": "CinemaApp\\Data\\CinemaDB.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T15:26:58.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

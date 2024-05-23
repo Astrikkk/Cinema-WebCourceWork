@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\data\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\entities\\seans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Migrations\\20240518100622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CinemaDataBase\\Migrations\\20240518100622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\data\\cinemadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\data\\cinemadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemadatabase\\cinemadatabase\\migrations\\20240518100622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2848E339-F30E-42FE-8D9D-2286D134FE25}|CinemaDataBase\\CinemaDataBase.csproj|solutionrelative:cinemadatabase\\migrations\\20240518100622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,27 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\appsettings.json",
-              "RelativeDocumentMoniker": "CinemaDataBase\\appsettings.json",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\appsettings.json",
-              "RelativeToolTip": "CinemaDataBase\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-18T10:13:03.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Program.cs",
-              "RelativeDocumentMoniker": "CinemaDataBase\\Program.cs",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Program.cs",
-              "RelativeToolTip": "CinemaDataBase\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "FilmController.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Controllers\\FilmController.cs",
+              "RelativeDocumentMoniker": "CinemaDataBase\\Controllers\\FilmController.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Controllers\\FilmController.cs",
+              "RelativeToolTip": "CinemaDataBase\\Controllers\\FilmController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T10:13:02.765Z",
+              "WhenOpened": "2024-05-18T09:58:06.931Z",
               "EditorCaption": ""
             },
             {
@@ -80,70 +59,56 @@
               "RelativeToolTip": "CinemaDataBase\\Migrations\\20240518100622_init.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T10:06:22.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T10:06:22.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FilmController.cs",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Controllers\\FilmController.cs",
-              "RelativeDocumentMoniker": "CinemaDataBase\\Controllers\\FilmController.cs",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Controllers\\FilmController.cs",
-              "RelativeToolTip": "CinemaDataBase\\Controllers\\FilmController.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAADwv2EAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T09:58:06.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Seans.cs",
               "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seans.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\Entities\\Seans.cs",
               "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seans.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\Entities\\Seans.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAABAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T09:46:40.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Seat.cs",
               "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\Entities\\Seat.cs",
               "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Seat.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\Entities\\Seat.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T05:35:49.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Film.cs",
               "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\Entities\\Film.cs",
               "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\Entities\\Film.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\Entities\\Film.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAywAoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T05:35:49.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "CinemaDB.cs",
               "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs",
               "RelativeDocumentMoniker": "CinemaDataBase\\Data\\CinemaDB.cs",
               "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaDataBase\\CinemaDataBase\\Data\\CinemaDB.cs",
               "RelativeToolTip": "CinemaDataBase\\Data\\CinemaDB.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDYAAAARAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T05:35:49.746Z",
               "EditorCaption": ""

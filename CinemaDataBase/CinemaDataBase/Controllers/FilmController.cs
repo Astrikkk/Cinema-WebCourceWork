@@ -17,25 +17,17 @@ namespace CinemaDataBase.Controllers
             this.context = context;
         }
 
-        [HttpGet]
+
+        #region Films
+
+
+        [HttpGet("films")]
         public IActionResult GetFilms()
         {
-            // OK - 200
-            // NotFount - 404
             return Ok(context.Films.ToList());
         }
 
-
-        [HttpGet]
-        public IActionResult GetSeanses()
-        {
-            // OK - 200
-            // NotFount - 404
-            return Ok(context.Seanses.ToList());
-        }
-
-
-        [HttpPost]
+        [HttpPost("films")]
         public IActionResult CreateFilms(Film model)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -46,7 +38,7 @@ namespace CinemaDataBase.Controllers
             return Ok();
         }
 
-        [HttpPut]
+        [HttpPut("films")]
         public IActionResult EditFilms(Film model)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -60,7 +52,7 @@ namespace CinemaDataBase.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("films/{id}")]
         public IActionResult DeleteFilms(int id)
         {
             var entity = context.Films.Find(id);
@@ -72,7 +64,21 @@ namespace CinemaDataBase.Controllers
             return Ok();
         }
 
-        [HttpPost]
+
+        #endregion
+
+        #region Seanses
+
+
+        [HttpGet("seanses")]
+        public IActionResult GetSeanses()
+        {
+            return Ok(context.Seanses.ToList());
+        }
+
+
+
+        [HttpPost("seanses")]
         public IActionResult CreateSeanses(Seans model)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -83,7 +89,7 @@ namespace CinemaDataBase.Controllers
             return Ok();
         }
 
-        [HttpPut]
+        [HttpPut("seanses")]
         public IActionResult EditSeanses(Seans model)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -97,7 +103,7 @@ namespace CinemaDataBase.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("seanses/{id}")]
         public IActionResult DeleteSeanses(int id)
         {
             var entity = context.Seanses.Find(id);
@@ -108,5 +114,7 @@ namespace CinemaDataBase.Controllers
 
             return Ok();
         }
+
+        #endregion
     }
 }
