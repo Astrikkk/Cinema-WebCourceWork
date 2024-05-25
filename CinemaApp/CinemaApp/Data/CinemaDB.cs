@@ -9,6 +9,10 @@ namespace CinemaDataBase.Data
 
         public CinemaDBContext(DbContextOptions options) : base(options) { }
 
+        public CinemaDBContext()
+        {
+        }
+
         public DbSet<Film> Films { get; set; }
         public DbSet<Seat> Seats { get; set; }
         public DbSet<Seans> Seanses { get; set; }

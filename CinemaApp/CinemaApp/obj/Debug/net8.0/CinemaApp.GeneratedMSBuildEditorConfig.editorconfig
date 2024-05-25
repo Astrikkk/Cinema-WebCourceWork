@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\спрайти\Cinema-WebCourceWork\CinemaApp\CinemaApp
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/спрайти/Cinema-WebCourceWork/CinemaApp/CinemaApp/Views/Film/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/спрайти/Cinema-WebCourceWork/CinemaApp/CinemaApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

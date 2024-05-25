@@ -1,0 +1,43 @@
+﻿@model FilmFormModel
+@{
+    bool isCreate = ViewBag.Creation ?? false;
+}
+
+<h2>@(isCreate ? "Create" : "Edit") Film</h2>
+
+
+<form asp-action="@(isCreate ? "Create" : "Edit")">
+    <div class="form-group">
+        <label asp-for="ReleaseDate" class="control-label"></label>
+        <input asp-for="ReleaseDate" class="form-control" />
+        <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GenreId" class="form-label">Genre</label>
+        <select asp-for="GenreId" asp-items="ViewBag.Genres" id="inputState" class="form-select">
+            <option selected>Choose...</option>
+        </select>
+        <span asp-validation-for="GenreId" class="small text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="col-6">
+        <a asp-action="FilmObserve" class="btn btn-dark w-100">Go Back</a>
+    </div>
+        @if (isCreate)
+        {
+            <button type="submit" class="btn btn-success w-100">Create</button>
+        }
+        else
+        {
+            <button type="submit" class="btn btn-warning w-100">Edit</button>
+        }
+</form>

@@ -3,12 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Retrieve the connection string from the configuration
 string connStr = builder.Configuration.GetConnectionString("LocalDb")!;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<CinemaDBContext>(opt => opt.UseSqlServer(connStr));
+// Add DbContext with the SQL Server provider
+builder.Services.AddDbContext<CinemaDBContext>(options => options.UseSqlServer(connStr));
 
 var app = builder.Build();
 
@@ -25,6 +27,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
