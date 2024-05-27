@@ -1,0 +1,47 @@
+﻿@model CinemaApp2.Models.SessionsAndFilmsViewModel
+
+@{
+    ViewData["Title"] = "Session Details";
+}
+
+<div class="container mt-5">
+    @if (Model.Sessions != null && Model.Sessions.Count > 0)
+    {
+        var session = Model.Sessions.First();
+
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <h2 class="display-4">@session.Film.Name</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="@(!string.IsNullOrEmpty(session.Film.ImgURL) ? session.Film.ImgURL : "https://static.vecteezy.com/system/resources/previews/005/337/799/non_2x/icon-image-not-found-free-vector.jpg")" class="img-fluid rounded" alt="@session.Film.Name">
+            </div>
+            <div class="col-md-8">
+                <div class="mb-4">
+                    <h5 class="text-muted">Film Information</h5>
+                    <p class="lead"><strong>Title:</strong> @session.Film.Name</p>
+                    <p class="lead"><strong>Release Date:</strong> @session.Film.ReleaseDate.ToString("yyyy-MM-dd")</p>
+                    <p class="lead"><strong>Genre:</strong> @session.Film.Genre.Name</p>
+                </div>
+                <div class="mb-4">
+                    <h5 class="text-muted">Session Information</h5>
+                    <p class="lead"><strong>Show Date:</strong> @session.ShowTime.ToString("yyyy-MM-dd HH:mm")</p>
+                    <p class="lead"><strong>Price:</strong> $@session.Price</p>
+                    <p class="lead"><strong>Hall Name:</strong> @session.Hall.Name</p>
+                    <p class="lead"><strong>Seats Left:</strong> @(session.Hall.MaxSeats - session.OccupiedSeats)</p>
+                </div>
+                <div class="mt-4">
+                    <a asp-action="Index" class="btn btn-dark btn-lg">Go Back</a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            Session details not found.
+        </div>
+    }
+</div>

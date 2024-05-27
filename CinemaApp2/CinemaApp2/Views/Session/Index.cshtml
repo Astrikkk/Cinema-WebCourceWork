@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="d-flex justify-content-between align-items-center">
         <h1>Sessions</h1>
-            <a asp-controller="Session" asp-action="Create" class="btn btn-primary">Add session</a>
+        <a asp-controller="Session" asp-action="Create" class="btn btn-primary">Add session</a>
         <a asp-controller="Session" asp-action="FilmObserve" class="btn btn-primary ml-auto">Observe films</a>
     </div>
 </div>
@@ -23,10 +23,10 @@
         @foreach (var session in Model.Sessions)
         {
             <tr>
-                <td>@session.Film.Name.ToString()</td>
-                <td>@session.Price.ToString()$</td>
+                <td>@session.Film.Name</td>
+                <td>@session.Price$</td>
                 <td>@session.ShowTime.ToString("yyyy-MM-dd")</td>
-                <td>@session.Hall.Name.ToString()</td>
+                <td>@session.Hall.Name</td>
                 <td>@(session.Hall.MaxSeats - session.OccupiedSeats)</td>
                 <td>
                     @if (session.ShowTime.AddHours(2) < DateTime.Now)
@@ -47,14 +47,13 @@
                             OnGoing
                         </div>
                     }
-
                 </td>
                 <td>
                     <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-secondary">
+                        <a asp-controller="Home" asp-action="SessionObserve" asp-route-id="@session.Id" class="btn btn-secondary">
                             <i class="bi bi-info-circle-fill"></i>
-                            <span>Info</span>
-                        </button>
+                            <span>Film Info</span>
+                        </a>
                         <a asp-action="Edit" asp-route-id="@session.Id" type="button" class="btn btn-warning">
                             <i class="bi bi-pencil-fill"></i>
                             <span>Edit</span>
@@ -64,7 +63,6 @@
                             <span>Delete</span>
                         </a>
                     </div>
-
                 </td>
             </tr>
         }

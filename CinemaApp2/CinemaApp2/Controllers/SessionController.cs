@@ -24,17 +24,29 @@ namespace CinemaApp2.Controllers
         public IActionResult Index()
         {
             var sessions = context.Sessions.Include(x => x.Film).Include(x => x.Hall).ToList();
+
+            var currentDateTime = DateTime.Now;
+            var ongoingSessions = sessions.Where(s => currentDateTime >= s.ShowTime && currentDateTime <= s.ShowTime.AddHours(2));
+            var upcomingSessions = sessions.Where(s => s.ShowTime > currentDateTime);
+            var pastSessions = sessions.Where(s => s.ShowTime.AddHours(2) < currentDateTime);
+
+            var sortedSessions = ongoingSessions
+                .Concat(upcomingSessions)
+                .Concat(pastSessions)
+                .ToList();
+
             var films = context.Films.Include(x => x.Genre).ToList();
 
             var viewModel = new SessionsAndFilmsViewModel
             {
-                Sessions = sessions,
+                Sessions = sortedSessions,
                 Films = films
             };
 
             return View(viewModel);
-
         }
+
+
         public IActionResult FilmObserve()
         {
             var sessions = context.Sessions.Include(x => x.Film).ToList();

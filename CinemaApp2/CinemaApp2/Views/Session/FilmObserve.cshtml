@@ -30,10 +30,11 @@
                     <td>@film.Description</td>
                     <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary">
+                            <a asp-controller="Home" asp-action="FilmObserve" asp-route-id="@film.Id" class="btn btn-secondary">
                                 <i class="bi bi-info-circle-fill"></i>
-                                <span>Info</span>
-                            </button>
+                                <span>Film Info</span>
+                            </a>
+
                             <a asp-action="EditFilm" asp-route-id="@film.Id" type="button" class="btn btn-warning">
                                 <i class="bi bi-pencil-fill"></i>
                                 <span>Edit</span>
