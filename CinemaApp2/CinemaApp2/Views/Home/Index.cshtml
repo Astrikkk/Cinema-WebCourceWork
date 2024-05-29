@@ -20,8 +20,14 @@
                         <li class="list-group-item">Hall: @i.Hall.Name</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                            <a asp-controller="Home" asp-action="BookSession" asp-route-id="@i.Id" class="btn btn-secondary">
+                                <i class="bi bi-info-circle-fill"></i>
+                                <span>Book</span>
+                            </a>
+                            <a asp-controller="Home" asp-action="SessionObserve" asp-route-id="@i.Id" class="btn btn-secondary">
+                                <i class="bi bi-info-circle-fill"></i>
+                                <span>Info</span>
+                            </a>
                     </div>
                 </div>
             </div>

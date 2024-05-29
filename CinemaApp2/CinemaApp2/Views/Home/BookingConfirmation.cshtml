@@ -1,0 +1,38 @@
+﻿@model CinemaApp2.Models.SessionAndOrder
+
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="display-4">Booking Confirmation</h2>
+            <p class="lead">Thank you for your booking, @Model.Order.CustomerName!</p>
+            <p>Here are your booking details:</p>
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Session Details</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Film:</strong> @Model.Session.Film.Name</p>
+                    <p><strong>Show Time:</strong> @Model.Session.ShowTime.ToString("yyyy-MM-dd HH:mm")</p>
+                    <p><strong>Hall:</strong> @Model.Session.Hall.Name</p>
+                    <p><strong>Seats Booked:</strong> @Model.Order.Seats</p>
+                    <p><strong>Total Price:</strong> @((Model.Session.Price * Model.Order.Seats).ToString("C"))</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Customer Details</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Name:</strong> @Model.Order.CustomerName</p>
+                    <p><strong>Email:</strong> @Model.Order.CustomerEmail</p>
+                    <p><strong>Phone:</strong> @Model.Order.CustomerPhone</p>
+                </div>
+            </div>
+            <a asp-action="Index" class="btn btn-primary">Back to Home</a>
+        </div>
+    </div>
+</div>

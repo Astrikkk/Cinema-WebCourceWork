@@ -2,6 +2,7 @@
 using CinemaApp2.Data;
 using CinemaApp2.Data.Entities;
 using CinemaApp2.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace CinemaApp2.Controllers
 {
+    [Authorize(Roles = Roles.ADMIN)]
     public class SessionController : Controller
     {
         private CinemaDbContext context;
@@ -207,6 +209,83 @@ namespace CinemaApp2.Controllers
             return RedirectToAction(nameof(Index));
         }
         #endregion
+        public IActionResult OrdersObserve()
+        {
+            var orders = context.Orders
+                       .Include(o => o.Session)
+                       .ThenInclude(s => s.Film)
+                       .Include(o => o.Session)
+                       .ThenInclude(s => s.Hall)
+                       .Select(o => new OrderViewModel
+                       {
+                           Id = o.Id,
+                           CustomerName = o.CustomerName,
+                           CustomerEmail = o.CustomerEmail,
+                           CustomerPhone = o.CustomerPhone,
+                           Seats = o.Seats,
+                           FilmName = o.Session.Film.Name,
+                           HallName = o.Session.Hall.Name,
+                           ShowTime = o.Session.ShowTime,
+                           Price = o.Session.Price
+                       })
+                       .ToList();
+
+            return View(orders);
+        }
+        public IActionResult FutureOrders()
+        {
+            var futureOrders = GetOrdersBySessionStatus(true);
+            return View("OrdersObserve", futureOrders);
+        }
+
+        public IActionResult PastOrders()
+        {
+            var pastOrders = GetOrdersBySessionStatus(false);
+            return View("OrdersObserve", pastOrders);
+        }
+
+        private IEnumerable<OrderViewModel> GetOrdersBySessionStatus(bool futureSessions)
+        {
+            var orders = context.Orders
+                                .Include(o => o.Session)
+                                .ThenInclude(s => s.Film)
+                                .Include(o => o.Session)
+                                .ThenInclude(s => s.Hall)
+                                .Where(o => futureSessions ? o.Session.ShowTime > DateTime.Now : o.Session.ShowTime <= DateTime.Now)
+                                .Select(o => new OrderViewModel
+                                {
+                                    Id = o.Id,
+                                    CustomerName = o.CustomerName,
+                                    CustomerEmail = o.CustomerEmail,
+                                    CustomerPhone = o.CustomerPhone,
+                                    Seats = o.Seats,
+                                    FilmName = o.Session.Film.Name,
+                                    HallName = o.Session.Hall.Name,
+                                    ShowTime = o.Session.ShowTime,
+                                    Price = o.Session.Price
+                                })
+                                .ToList();
+
+            return orders;
+        }
+
+
+        [HttpPost]
+        public IActionResult DeleteOrder(int id)
+        {
+            var order = context.Orders.Find(id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            context.Orders.Remove(order);
+            context.SaveChanges();
+
+            return RedirectToAction(nameof(OrdersObserve));
+        }
+
         private void LoadFilms()
         {
             var Films = new SelectList(context.Films.ToList(), "Id", "Name");

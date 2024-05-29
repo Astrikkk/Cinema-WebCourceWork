@@ -3,32 +3,104 @@
   "WorkspaceRootPath": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\home\\sessionobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\home\\sessionobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\extentions\\seedextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\extentions\\seedextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\webconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\webconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\data\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\data\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\migrations\\20240524172758_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\migrations\\20240524172758_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\home\\booksession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\home\\booksession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\models\\sessionandorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\models\\sessionandorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\session\\ordersobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\session\\ordersobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\session\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\session\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\home\\filmobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\home\\filmobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\session\\filmobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\session\\filmobserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\home\\bookingconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\home\\bookingconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\models\\sessionsandfilmsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\models\\sessionsandfilmsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|e:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\cinema-webcourcework\\cinemaapp2\\cinemaapp2\\migrations\\20240528183130_0.09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2408DBA7-3687-4797-BF28-286D8A4ADC37}|CinemaApp2\\CinemaApp2.csproj|solutionrelative:cinemaapp2\\migrations\\20240528183130_0.09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +110,314 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SessionObserve.cshtml",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\SessionObserve.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Home\\SessionObserve.cshtml",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\SessionObserve.cshtml",
-              "RelativeToolTip": "CinemaApp2\\Views\\Home\\SessionObserve.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T15:57:07.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\Index.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Session\\Index.cshtml",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\Index.cshtml",
-              "RelativeToolTip": "CinemaApp2\\Views\\Session\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:04:51.805Z",
+              "DocumentIndex": 3,
+              "Title": "SeedExtention.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Extentions\\SeedExtention.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Extentions\\SeedExtention.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Extentions\\SeedExtention.cs",
+              "RelativeToolTip": "CinemaApp2\\Extentions\\SeedExtention.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:19:49.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FilmObserve.cshtml",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\FilmObserve.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Session\\FilmObserve.cshtml",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\FilmObserve.cshtml",
-              "RelativeToolTip": "CinemaApp2\\Views\\Session\\FilmObserve.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAD4vyAAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T12:29:35.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FilmObserve.cshtml",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\FilmObserve.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Home\\FilmObserve.cshtml",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\FilmObserve.cshtml",
-              "RelativeToolTip": "CinemaApp2\\Views\\Home\\FilmObserve.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T12:26:42.421Z",
+              "Title": "WebConstants.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\WebConstants.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\WebConstants.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\WebConstants.cs",
+              "RelativeToolTip": "CinemaApp2\\WebConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:14:19.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CinemaApp2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwBsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T19:16:37.45Z",
+              "Title": "Session.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Data\\Entities\\Session.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Data\\Entities\\Session.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Data\\Entities\\Session.cs",
+              "RelativeToolTip": "CinemaApp2\\Data\\Entities\\Session.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:37:45.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CinemaApp2\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CinemaApp2\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAADwvzwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T17:57:26.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T16:47:28.751Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CinemaDbContext.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Data\\CinemaDbContext.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Data\\CinemaDbContext.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Data\\CinemaDbContext.cs",
+              "RelativeToolTip": "CinemaApp2\\Data\\CinemaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:55:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SessionController.cs",
               "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Controllers\\SessionController.cs",
               "RelativeDocumentMoniker": "CinemaApp2\\Controllers\\SessionController.cs",
               "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Controllers\\SessionController.cs",
               "RelativeToolTip": "CinemaApp2\\Controllers\\SessionController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwEIAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T17:23:39.523Z",
+              "WhenOpened": "2024-05-28T16:45:21.426Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Program.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Program.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Program.cs",
+              "RelativeToolTip": "CinemaApp2\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:18:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T18:15:27.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:36:22.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240524172758_init.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Migrations\\20240524172758_init.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Migrations\\20240524172758_init.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Migrations\\20240524172758_init.cs",
+              "RelativeToolTip": "CinemaApp2\\Migrations\\20240524172758_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:02:41.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:36:44.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Data\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Data\\Entities\\Order.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Data\\Entities\\Order.cs",
+              "RelativeToolTip": "CinemaApp2\\Data\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:19:53.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookSession.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\BookSession.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Home\\BookSession.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\BookSession.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Home\\BookSession.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T17:06:33.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SessionAndOrder.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Models\\SessionAndOrder.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Models\\SessionAndOrder.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Models\\SessionAndOrder.cs",
+              "RelativeToolTip": "CinemaApp2\\Models\\SessionAndOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:17:40.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:34:09.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T18:38:54.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T18:32:04.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240528183130_0.09.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Migrations\\20240528183130_0.09.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Migrations\\20240528183130_0.09.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Migrations\\20240528183130_0.09.cs",
+              "RelativeToolTip": "CinemaApp2\\Migrations\\20240528183130_0.09.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:31:30.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T18:15:21.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Models\\OrderViewModel.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "CinemaApp2\\Models\\OrderViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:33:03.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersObserve.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\OrdersObserve.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Session\\OrdersObserve.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\OrdersObserve.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Session\\OrdersObserve.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T16:57:10.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Session\\Index.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Session\\Index.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Session\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwC8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T16:56:43.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingConfirmation.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\BookingConfirmation.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Home\\BookingConfirmation.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\BookingConfirmation.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Home\\BookingConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T17:07:25.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaApp2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CinemaApp2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T17:06:31.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SessionsAndFilmsViewModel.cs",
+              "DocumentMoniker": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Models\\SessionsAndFilmsViewModel.cs",
+              "RelativeDocumentMoniker": "CinemaApp2\\Models\\SessionsAndFilmsViewModel.cs",
+              "ToolTip": "E:\\\u0441\u043F\u0440\u0430\u0439\u0442\u0438\\Cinema-WebCourceWork\\CinemaApp2\\CinemaApp2\\Models\\SessionsAndFilmsViewModel.cs",
+              "RelativeToolTip": "CinemaApp2\\Models\\SessionsAndFilmsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:47:05.465Z"
             }
           ]
         }

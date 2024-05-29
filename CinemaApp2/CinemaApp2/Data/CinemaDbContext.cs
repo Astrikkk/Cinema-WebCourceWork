@@ -1,9 +1,10 @@
 ﻿using CinemaApp2.Data.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CinemaApp2.Data
 {
-    public class CinemaDbContext : DbContext
+    public class CinemaDbContext : IdentityDbContext
     {
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
@@ -64,5 +65,6 @@ namespace CinemaApp2.Data
         public DbSet<Hall> Halls { get; set; }
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

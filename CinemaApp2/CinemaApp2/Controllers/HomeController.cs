@@ -37,6 +37,97 @@ namespace CinemaApp2.Controllers
         }
 
         [HttpGet]
+        public IActionResult BookSession(int id)
+        {
+            var session = context.Sessions
+                                 .Include(s => s.Film)
+                                 .ThenInclude(f => f.Genre)
+                                 .Include(s => s.Hall)
+                                 .FirstOrDefault(s => s.Id == id);
+
+            if (session == null)
+            {
+                return NotFound();
+            }
+
+            var viewModel = new SessionAndOrder
+            {
+                Session = session,
+                Order = new Order()  // Initialize a new Order
+            };
+
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult BookSession(int id, SessionAndOrder viewModel)
+        {
+            var session = context.Sessions
+                                 .Include(s => s.Film)
+                                 .ThenInclude(f => f.Genre)
+                                 .Include(s => s.Hall)
+                                 .FirstOrDefault(s => s.Id == id);
+
+            if (session == null)
+            {
+                return NotFound();
+            }
+
+            // Associate the order with the session
+            viewModel.Order.SessionId = session.Id;
+
+            session.OccupiedSeats += viewModel.Order.Seats;
+            // Save the order to the database
+            context.Orders.Add(viewModel.Order);
+            context.SaveChanges();
+            // Redirect to BookingConfirmation action
+            return RedirectToAction("BookingConfirmation", new { id = session.Id });
+
+
+            //viewModel.Session = context.Sessions
+            //                            .Include(s => s.Film)
+            //                            .ThenInclude(f => f.Genre)
+            //                            .Include(s => s.Hall)
+            //                            .FirstOrDefault(s => s.Id == id);
+            //return View(viewModel);
+        }
+
+
+
+        public IActionResult BookingConfirmation(int id)
+        {
+            var session = context.Sessions
+                                 .Include(s => s.Film)
+                                 .Include(s => s.Hall)
+                                 .FirstOrDefault(s => s.Id == id);
+
+            if (session == null)
+            {
+                return NotFound();
+            }
+
+            var order = context.Orders
+                               .Where(o => o.SessionId == id)
+                               .OrderByDescending(o => o.Id)
+                               .FirstOrDefault();
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            var viewModel = new SessionAndOrder
+            {
+                Session = session,
+                Order = order
+            };
+
+            return View(viewModel);
+        }
+
+
+
+        [HttpGet]
         public IActionResult SessionObserve(int id)
         {
             var session = context.Sessions

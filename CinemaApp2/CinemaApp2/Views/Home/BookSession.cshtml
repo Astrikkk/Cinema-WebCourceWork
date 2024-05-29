@@ -1,0 +1,57 @@
+﻿@model CinemaApp2.Models.SessionAndOrder
+
+@{
+    ViewData["Title"] = "Book Session";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="BookSession" method="post">
+                <input type="hidden" asp-for="Session.Id" value="@Model.Session.Id" />
+                <div class="form-group">
+                    <label asp-for="Order.CustomerName" class="control-label">Name</label>
+                    <input asp-for="Order.CustomerName" class="form-control" />
+                    <span asp-validation-for="Order.CustomerName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Order.CustomerEmail" class="control-label">Email</label>
+                    <input asp-for="Order.CustomerEmail" class="form-control" />
+                    <span asp-validation-for="Order.CustomerEmail" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Order.CustomerPhone" class="control-label">Phone</label>
+                    <input asp-for="Order.CustomerPhone" class="form-control" />
+                    <span asp-validation-for="Order.CustomerPhone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Order.Seats" class="control-label">Number of Seats</label>
+                    <input asp-for="Order.Seats" class="form-control" />
+                    <span asp-validation-for="Order.Seats" class="text-danger"></span>
+                </div>
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-success w-100">Book Now</button>
+                    <a asp-action="Index" class="btn btn-dark w-100 mt-2">Go Back</a>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div class="card" style="width: 100%;">
+                <img src="@(!string.IsNullOrEmpty(Model.Session.Film.ImgURL) ? Model.Session.Film.ImgURL : "https://static.vecteezy.com/system/resources/previews/005/337/799/non_2x/icon-image-not-found-free-vector.jpg")" class="card-img-top" alt="@Model.Session.Film.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Session.Film.Name</h5>
+                    <p class="card-text">@Model.Session.Film.Description</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Price: @Model.Session.Price $</li>
+                    <li class="list-group-item">Seats Left: @(Model.Session.Hall.MaxSeats - Model.Session.OccupiedSeats)</li>
+                    <li class="list-group-item">Hall: @Model.Session.Hall.Name</li>
+                    <li class="list-group-item">Show Time: @Model.Session.ShowTime.ToString("yyyy-MM-dd HH:mm")</li>
+                </ul>
+                <div class="card-body">
+                    <a asp-action="FilmObserve" class="btn btn-secondary w-100">Session Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
